@@ -29,11 +29,21 @@ body {
     align-items: center;
 }
 
+.link-blue a {
+    color: var(--instagram-blue);
+    text-decoration: none;
+}
+
+.link-blue a:hover {
+    text-decoration: underline;
+}
+
 .instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin-top: -5%;
 }
 
 .instagram-phone img {
@@ -91,9 +101,14 @@ p.get-app {
     border-radius: 4px;
 }
 
+
 .instagram-logout {
-    color: var(--instagram-color-blue);
+    color: orangered;
     margin-top: 1rem;
+}
+
+.instagram-logout:hover {
+    text-decoration: underline;
 }
 
 .not-account {
